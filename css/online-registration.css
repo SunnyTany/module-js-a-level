@@ -1,0 +1,51 @@
+.online-registration {
+    padding: 50px 0;
+    background-color: #bde0e4;
+}
+
+.online-registration-wrapper,
+.online-registration__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.online-registration__block {
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.online-registration__img {
+    width: 25vw;
+}
+
+
+.online-registration-title .section-title {
+    text-align: center;
+}
+
+.online-registration__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 30px 0;
+    gap: 20px;
+}
+
+.online-registration__form input,
+.online-registration__form textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    color: #787878;
+}
+
+.online-registration__form input.online-registration__send {
+    color: #fff;
+    background-color: #f99397;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

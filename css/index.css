@@ -1,0 +1,61 @@
+@import 'header.css';
+@import 'first-screen.css';
+@import 'procedures.css';
+@import 'catalog.css';
+@import 'services.css';
+@import 'online-registration.css';
+@import 'about-me.css';
+
+@import 'footer.css';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3;
+    /* background-color: #8de1f1; */
+}
+
+img {
+    object-fit: cover;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.btn {
+    text-transform: uppercase;
+    padding: 20px;
+    border: 2px solid transparent;
+    background-color: #f99397;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    transition: all .6s;
+}
+
+.btn:hover {
+    border: 2px solid #f99397;
+    color: #f99397;
+    background-color: #fff;
+}

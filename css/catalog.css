@@ -1,0 +1,82 @@
+.catalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.catalog__image {
+    position: relative;
+    min-width: 25%;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.img-1 {
+    background-image: url(../images/catalog-01.jpg);
+}
+
+.img-2 {
+    background-image: url(../images/catalog-02.jpg);
+}
+
+.img-3 {
+    background-image: url(../images/catalog-03.jpg);
+}
+
+.img-4 {
+    background-image: url(../images/catalog-04.jpg);
+}
+
+.img-5 {
+    background-image: url(../images/catalog-05.jpg);
+}
+
+.img-6 {
+    background-image: url(../images/catalog-06.jpg);
+}
+
+.img-7 {
+    background-image: url(../images/catalog-07.jpg);
+}
+
+.img-8 {
+    background-image: url(../images/catalog-08.jpg);
+}
+
+.img-9 {
+    background-image: url(../images/catalog-09.jpg);
+}
+
+.img-10 {
+    background-image: url(../images/catalog-10.jpg);
+}
+
+.img-11 {
+    background-image: url(../images/catalog-11.jpg);
+}
+
+.img-12 {
+    background-image: url(../images/catalog-12.jpg);
+}
+
+.catalog__heart {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 30px;
+    top: 30px;
+    background-image: url(../images/heart.svg);
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 50%;
+    display: block;
+    box-shadow: 0 0 10px #fff;
+}
+
+.heart-fill {
+    background-image: url(../images/heart-fill.svg);
+}
